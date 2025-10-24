@@ -3,55 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>chocolate world</title>
+    <title>All About Chocolates</title>
     <style>
-        boby{
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 20px;
+        body {
+            background-color: #fff3e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            text-align: center;
         }
-        ul{
-            background-color: rgb(221, 218, 224);
-            padding: 15px;
-            border-radius: 8px;
-            width: 300px;
-        }
-        ul li{
-            margin: 8px;
-            font-size: 16px;
-        }
-        .row{
-            display: flex;
+        h1 {
+            color: brown;
             margin-top: 20px;
         }
-        .column{
-            flex:1;
-            border:1px solid #333;
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
             padding: 20px;
-            margin: 5px;
-            text-align: center;
-            background-color: rgb(43, 104, 226);
-            border-radius: 8px;
+        }
+        .image {
+            flex: 1;
+            min-width: 250px;
+        }
+        .image img {
+            width: 90%;
+            max-width: 400px;
+            border-radius: 10px;
+        }
+        .content {
+            flex: 1;
+            min-width: 250px;
+            text-align: left;
+            padding: 20px;
+            color: #4e342e;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: square;
+            color: #3e2723;
+            font-size: 18px;
+        }
+        footer {
+            color: #5d4037;
+            font-size: 17px;
+            margin: 20px;
         }
     </style>
 </head>
 <body>
-    
-    <h1> chocolates </h1>
-    <p> i love chocolates</p>
-    <a> <img src="image 1.jpeg"></a>
-    <h1>unorder list</h1>
-    <ul type="none"></ul>
-    <ol>
-        <li>5star</li>
-         <li>
-            dairymilk
-        </li>
-        <li>silk</li>
-        <li>dark chocolate</li>
-        
-    </ol>
-    <a href="https://www.google.com" target="_blank">go to google</a>
+    <h1>🍫 Welcome to the World of Chocolates 🍫</h1>
 
-    
+    <div class="container">
+        <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Chocolate_%28blue_background%29.jpg" 
+                 alt="Delicious Chocolates">
+        </div>
+        <div class="content">
+            <p>
+                Chocolate is a sweet treat made from cocoa beans. 
+                It is loved by people of all ages and comes in many varieties. 
+                Whether it’s dark, milk, or white chocolate — each has a unique flavor and texture. 
+                Chocolates are also used in cakes, ice creams, and desserts!
+            </p>
+            <h2>Popular Types of Chocolates</h2>
+            <ul>
+                <li>Dark Chocolate – Rich and slightly bitter flavor.</li>
+                <li>Milk Chocolate – Smooth and creamy taste.</li>
+                <li>White Chocolate – Sweet and buttery flavor.</li>
+                <li>Ruby Chocolate – Pink in color with fruity notes.</li>
+                <li>Caramel Chocolate – Sweet chocolate mixed with caramel flavor.</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>🍬 Chocolates always bring sweetness and happiness to life! 🍬</footer>
 </body>
 </html>
